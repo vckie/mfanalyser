@@ -9,6 +9,19 @@
   margin-bottom: 2rem;
 }
 
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.header-logo {
+  width: 48px;
+  height: 48px;
+  filter: invert(1);
+}
+
 .header h1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -16,12 +29,13 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
 }
 
 .header p {
   color: var(--text-secondary);
   font-size: 1.1rem;
+  margin-top: 0.5rem;
 }
 
 /* Main Layout */

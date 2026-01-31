@@ -56,7 +56,10 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <h1>📊 Mutual Fund Analyser</h1>
+        <div className="header-title">
+          <img src="/favicon.png" alt="MF Analyser" className="header-logo" />
+          <h1>Mutual Fund Analyser</h1>
+        </div>
         <p>Analyze NAV history and calculate SIP returns for Indian mutual funds</p>
       </header>
 
