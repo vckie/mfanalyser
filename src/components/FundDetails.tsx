@@ -1,8 +1,7 @@
-import { useState } from 'react';
 import type { FundDetails } from '../types';
 import NavChart from './NavChart';
 import SipCalculator from './SipCalculator';
-import { formatCurrency, parseNavDate } from '../services/mfApi';
+import { parseNavDate } from '../services/mfApi';
 
 interface FundDetailsProps {
     details: FundDetails | null;
